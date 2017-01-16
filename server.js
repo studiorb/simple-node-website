@@ -1,9 +1,10 @@
 const express = require('express')
+const path = require('path')
 const pug = require('pug')
 const app = express()
 
 app.set('view engine', 'pug')
-app.use(express.static(__dirname + '/static'))
+app.use(express.static(path.join(__dirname, '/static')))
 
 app.get('/', function (req, res, next) {
   res.render('home', { title: 'Home', header: 'The Home Page', home: true })
