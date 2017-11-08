@@ -15,26 +15,22 @@
     "start": "node server --production"
   },
   "dependencies": {
-    "express": "^4.14.0",
-    "pug": "^2.0.0-beta6"
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4"
   },
   "devDependencies": {
+    "babel-core": "^6.26.0",
     "babel-preset-es2015-rollup": "^3.0.0",
-    "eslint": "^3.13.1",
-    "eslint-config-standard": "^6.2.1",
-    "eslint-plugin-html": "^1.7.0",
-    "eslint-plugin-promise": "^3.4.0",
-    "eslint-plugin-standard": "^2.0.1",
-    "nodemon": "^1.9.1",
-    "npm-run-all": "^4.0.0",
-    "rimraf": "^2.5.4",
-    "rollup": "^0.41.3",
-    "rollup-plugin-babel": "^2.7.1",
-    "rollup-plugin-commonjs": "^7.0.0",
-    "rollup-plugin-node-resolve": "^2.0.0",
-    "rollup-plugin-replace": "^1.1.1",
-    "rollup-plugin-uglify": "^1.0.1",
-    "rollup-watch": "^3.2.2",
-    "stylus": "^0.53.0"
+    "nodemon": "^1.12.1",
+    "npm-run-all": "^4.1.2",
+    "rimraf": "^2.6.2",
+    "rollup": "^0.51.0",
+    "rollup-plugin-babel": "^3.0.2",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-replace": "^2.0.0",
+    "rollup-plugin-uglify": "^2.0.1",
+    "rollup-watch": "^4.3.1",
+    "stylus": "^0.54.5"
   }
 }
