@@ -8,10 +8,11 @@ composer.lock
 *.cache
 *~
 
-# OS or Editor folders
+# OS or Editor files
 ._*
 .DS_Store
 Thumbs.db
+package-lock.json
 
 # Folders to ignore
 node_modules
